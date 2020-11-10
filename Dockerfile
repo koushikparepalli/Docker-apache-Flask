@@ -1,6 +1,4 @@
 
-
-
 FROM continuumio/anaconda3:4.4.0
 EXPOSE 8000
 RUN apt-get update && apt-get install -y apache2 \
